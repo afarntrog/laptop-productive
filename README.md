@@ -10,7 +10,7 @@ Run the file in the background
 
 If you want to update the background script then:
 1) Find process
-`jobs -l`
+`ps -ef | grep script.sh`
 2) Kill it
 `kill -9 pid`
 
